@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Value Agent — Paper Trading Scoreboard</title>
+<style>
+:root { --ink:#1a1a1a; --muted:#666; --line:#e0e0e0; --port:#0a6cbc; --spy:#999;
+         --warn-bg:#fff3cd; --warn-ink:#7a5c00; }
+* { box-sizing:border-box; }
+body { margin:0; font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+       color:var(--ink); line-height:1.55; }
+.wrap { max-width:760px; margin:0 auto; padding:16px; }
+.banner { background:var(--warn-bg); color:var(--warn-ink); border:2px solid #e6c200;
+          border-radius:8px; padding:14px 16px; font-weight:700; font-size:17px;
+          text-align:center; margin:12px 0 20px 0; }
+h1 { font-size:24px; margin:18px 0 4px 0; }
+h2 { font-size:19px; margin:28px 0 8px 0; }
+.stats { display:flex; flex-wrap:wrap; gap:12px; margin:16px 0; }
+.stat { flex:1 1 140px; border:1px solid var(--line); border-radius:8px;
+        padding:10px 14px; }
+.stat .v { font-size:22px; font-weight:700; }
+.stat .l { font-size:12px; color:var(--muted); text-transform:uppercase; }
+table { border-collapse:collapse; width:100%; font-size:14px; }
+th,td { text-align:left; padding:7px 8px; border-bottom:1px solid var(--line); }
+th { color:var(--muted); font-size:12px; text-transform:uppercase; }
+svg { width:100%; height:auto; }
+.grid { stroke:var(--line); stroke-width:1; }
+.axis { font-size:11px; fill:var(--muted); }
+.port { fill:none; stroke:var(--port); stroke-width:2.5; }
+.spy { fill:none; stroke:var(--spy); stroke-width:2; stroke-dasharray:5 4; }
+.legend { font-size:13px; color:var(--muted); margin-top:4px; }
+.key { display:inline-block; width:22px; height:3px; margin:0 6px 3px 12px; }
+.port-key { background:var(--port); }
+.spy-key { background:var(--spy); }
+.muted { color:var(--muted); }
+.foot { font-size:12px; color:var(--muted); border-top:1px solid var(--line);
+        margin-top:32px; padding-top:12px; }
+a { color:var(--port); }
+</style></head><body><div class="wrap">
+
+<div class="banner">⚠️ PAPER TRADING — simulated portfolio, no real capital.
+Started 2026-07-22.</div>
+
+<h1>Value Agent — Paper Trading Scoreboard</h1>
+<p class="muted">Every number on this page comes from the public, append-only
+trading ledger in <a href="https://github.com/kpms0925-max/value-agent-scoreboard/tree/main/paper_ledger">the repository</a>.
+Updated after each daily equity snapshot. Last generated: 2026-07-23 21:59 UTC.</p>
+
+<div class="stats">
+<div class="stat"><div class="v">+0.00%</div><div class="l">Since start (2026-07-22)</div></div>
+<div class="stat"><div class="v">n/a</div><div class="l">SPY same period</div></div>
+<div class="stat"><div class="v">+0.00%</div><div class="l">Current drawdown</div></div>
+<div class="stat"><div class="v">20</div><div class="l">Holdings</div></div>
+</div>
+
+<h2>Equity curve</h2>
+<p class='muted'>Chart appears once at least two daily equity snapshots exist.</p>
+
+<h2>Current holdings</h2>
+<table><tr><th>Ticker</th><th>Entry date</th><th>Shares</th><th>Weight at cost</th></tr>
+<tr><td>BYD</td><td>2026-07-23</td><td>58.48</td><td>5.0%</td></tr><tr><td>CALM</td><td>2026-07-23</td><td>55.97</td><td>5.0%</td></tr><tr><td>CMCSA</td><td>2026-07-23</td><td>211.68</td><td>5.0%</td></tr><tr><td>CRTO</td><td>2026-07-23</td><td>235.85</td><td>5.0%</td></tr><tr><td>FISV</td><td>2026-07-23</td><td>99.65</td><td>5.0%</td></tr><tr><td>GTM</td><td>2026-07-23</td><td>1700.90</td><td>5.0%</td></tr><tr><td>INGR</td><td>2026-07-23</td><td>48.81</td><td>5.0%</td></tr><tr><td>LEN</td><td>2026-07-23</td><td>61.86</td><td>5.0%</td></tr><tr><td>LEVI</td><td>2026-07-23</td><td>205.46</td><td>5.0%</td></tr><tr><td>LKQ</td><td>2026-07-23</td><td>201.94</td><td>5.0%</td></tr><tr><td>LULU</td><td>2026-07-23</td><td>44.80</td><td>5.0%</td></tr><tr><td>NICE</td><td>2026-07-23</td><td>56.10</td><td>5.0%</td></tr><tr><td>NUTX</td><td>2026-07-23</td><td>31.25</td><td>5.0%</td></tr><tr><td>PPC</td><td>2026-07-23</td><td>174.82</td><td>5.0%</td></tr><tr><td>SIRI</td><td>2026-07-23</td><td>169.98</td><td>5.0%</td></tr><tr><td>SMPL</td><td>2026-07-23</td><td>479.39</td><td>5.0%</td></tr><tr><td>SONY</td><td>2026-07-23</td><td>240.41</td><td>5.0%</td></tr><tr><td>TAL</td><td>2026-07-23</td><td>481.21</td><td>5.0%</td></tr><tr><td>UHS</td><td>2026-07-23</td><td>33.55</td><td>5.0%</td></tr><tr><td>VRRM</td><td>2026-07-23</td><td>1269.16</td><td>5.0%</td></tr>
+</table>
+<p class="muted">Target construction: 20 names, equal weight (5% each),
+rebalanced monthly. Weights shown at cost; they drift with prices between
+rebalances.</p>
+
+<h2>Monthly returns</h2>
+<table><tr><th>Month</th><th>Net return</th></tr>
+<tr><td colspan='2' class='muted'>First full month completes 2026-07-31.</td></tr></table>
+
+<h2>How this works</h2>
+<p>A fully automated screen of ~6,000 US companies runs every weekday,
+scoring each one across 12 classic value and growth frameworks (Graham,
+Buffett, Lynch, and others) plus regulatory-filing signals. Each month, the
+paper portfolio buys the <b>top 20 names, equal weight</b>, and rebalances on
+the last trading day. No human stock-picking, no overrides — every order the
+system has ever placed is in the public ledger.</p>
+<p>Before any paper trading began, the engine was backtested over
+<b>2013–2025 under pre-registered, locked pass/fail criteria</b> — the rules
+were written down and committed before results existed, and the losing
+variants are published alongside the winner. Those simulated historical
+results live in the repository
+(<a href="https://github.com/kpms0925-max/value-agent-scoreboard/blob/main/docs/BACKTEST_PREREGISTRATION_V2.md">criteria</a>,
+<a href="https://github.com/kpms0925-max/value-agent-scoreboard/blob/main/backtest_runs/stage2_eval/report.md">verdict report</a>,
+<a href="https://github.com/kpms0925-max/value-agent-scoreboard/blob/main/docs/STAGE2_DIAGNOSIS.md">failure analysis</a>)
+and are <b>not</b> mixed into the live curve above — everything on this page
+is paper trading from 2026-07-22 onward.</p>
+
+<div class="foot">
+<p><b>Not investment advice.</b> This is an educational and informational
+project. Simulated (paper) trading results do not represent real trading and
+no real capital is at risk; nothing here is a recommendation to buy or sell
+any security. Do your own research.</p>
+<p><a href="https://github.com/kpms0925-max/value-agent-scoreboard">Source code &amp; full ledger</a></p>
+</div>
+</div></body></html>
