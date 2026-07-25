@@ -44,22 +44,28 @@ Started 2026-07-22.</div>
 <h1>Value Agent — Paper Trading Scoreboard</h1>
 <p class="muted">Every number on this page comes from the public, append-only
 trading ledger in <a href="https://github.com/kpms0925-max/value-agent-scoreboard/tree/main/paper_ledger">the repository</a>.
-Updated after each daily equity snapshot. Last generated: 2026-07-25 06:30 UTC.</p>
+Updated after each daily equity snapshot. Last generated: 2026-07-25 15:50 UTC.</p>
 
 <div class="stats">
-<div class="stat"><div class="v">+1.62%</div><div class="l">Since start (2026-07-22)</div></div>
-<div class="stat"><div class="v">n/a</div><div class="l">SPY same period</div></div>
-<div class="stat"><div class="v">-0.02%</div><div class="l">Current drawdown</div></div>
+<div class="stat"><div class="v">+0.25%</div><div class="l">Since start (2026-07-22)</div></div>
+<div class="stat"><div class="v">-1.13%</div><div class="l">SPY same period (as of 2026-07-24)</div></div>
+<div class="stat"><div class="v">-1.37%</div><div class="l">Current drawdown</div></div>
 <div class="stat"><div class="v">20</div><div class="l">Holdings</div></div>
 </div>
+<p class="muted" style="font-size:12px;">Both lines are indexed to 100 on
+2026-07-22, the day the account opened and the first orders were submitted.
+The portfolio sat in cash until those orders filled at the 2026-07-23
+market open, so its first market move starts one day after SPY's.
+Benchmark: SPY dividend-adjusted daily close; weekend and
+not-yet-published dates carry the last available close.</p>
 
 <h2>Equity curve</h2>
 
 <svg viewBox="0 0 720 300" role="img" aria-label="Equity curve, indexed to 100">
-<line x1='40' y1='40' x2='680' y2='40' class='grid'/><text x='34' y='44' class='axis' text-anchor='end'>102</text><line x1='40' y1='95' x2='680' y2='95' class='grid'/><text x='34' y='99' class='axis' text-anchor='end'>101</text><line x1='40' y1='150' x2='680' y2='150' class='grid'/><text x='34' y='154' class='axis' text-anchor='end'>101</text><line x1='40' y1='205' x2='680' y2='205' class='grid'/><text x='34' y='209' class='axis' text-anchor='end'>100</text><line x1='40' y1='260' x2='680' y2='260' class='grid'/><text x='34' y='264' class='axis' text-anchor='end'>100</text>
-<polyline points='40.0,247.9 680.0,234.0' class='spy'/>
-<polyline points="40.0,247.9 360.0,250.0 680.0,50.0" class="port"/>
-<text x="40" y="16" class="axis">2026-07-23 … 2026-07-25 · indexed to 100 at start</text>
+<line x1='40' y1='40' x2='680' y2='40' class='grid'/><text x='34' y='44' class='axis' text-anchor='end'>100</text><line x1='40' y1='95' x2='680' y2='95' class='grid'/><text x='34' y='99' class='axis' text-anchor='end'>100</text><line x1='40' y1='150' x2='680' y2='150' class='grid'/><text x='34' y='154' class='axis' text-anchor='end'>99</text><line x1='40' y1='205' x2='680' y2='205' class='grid'/><text x='34' y='209' class='axis' text-anchor='end'>99</text><line x1='40' y1='260' x2='680' y2='260' class='grid'/><text x='34' y='264' class='axis' text-anchor='end'>99</text>
+<polyline points='40.0,81.1 253.3,233.8 466.7,221.4 680.0,221.4' class='spy'/>
+<polyline points="40.0,81.1 253.3,247.9 466.7,250.0 680.0,50.0" class="port"/>
+<text x="40" y="16" class="axis">2026-07-22 … 2026-07-25 · indexed to 100 at start</text>
 </svg>
 <div class="legend"><span class="key port-key"></span>Paper portfolio
 <span class="key spy-key"></span>SPY</div>

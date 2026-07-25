@@ -1,0 +1,3 @@
+{"closeadj": 747.41, "date": "2026-07-22", "source": "yfinance_backfill_2026-07-25 (auto_adjust; cross-checked vs alpaca overlap <=0.016%)", "symbol": "SPY", "ts": "2026-07-25T15:50:00+00:00"}
+{"closeadj": 738.18, "date": "2026-07-23", "source": "yfinance_backfill_2026-07-25 (auto_adjust; cross-checked vs alpaca overlap <=0.016%)", "symbol": "SPY", "ts": "2026-07-25T15:50:00+00:00"}
+{"closeadj": 738.93, "date": "2026-07-24", "source": "yfinance_backfill_2026-07-25 (auto_adjust; cross-checked vs alpaca overlap <=0.016%)", "symbol": "SPY", "ts": "2026-07-25T15:50:00+00:00"}
