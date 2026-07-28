@@ -2,3 +2,4 @@
 {"closeadj": 738.18, "date": "2026-07-23", "source": "yfinance_backfill_2026-07-25 (auto_adjust; cross-checked vs alpaca overlap <=0.016%)", "symbol": "SPY", "ts": "2026-07-25T15:50:00+00:00"}
 {"closeadj": 738.93, "date": "2026-07-24", "source": "yfinance_backfill_2026-07-25 (auto_adjust; cross-checked vs alpaca overlap <=0.016%)", "symbol": "SPY", "ts": "2026-07-25T15:50:00+00:00"}
 {"closeadj": 738.85, "date": "2026-07-27", "source": "alpaca_daily_adjusted", "symbol": "SPY", "ts": "2026-07-28T07:47:53+00:00"}
+{"closeadj": 740.795, "date": "2026-07-28", "source": "alpaca_daily_adjusted", "symbol": "SPY", "ts": "2026-07-28T22:53:28+00:00"}
