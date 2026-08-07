@@ -51,25 +51,25 @@ Started 2026-07-22.</div>
 <h1>Value Agent — Paper Trading Scoreboard</h1>
 <p class="muted">Every number on this page comes from the public, append-only
 trading ledger in <a href="https://github.com/kpms0925-max/value-agent-scoreboard/tree/main/paper_ledger">the repository</a>.
-Updated after each daily equity snapshot. Last generated: 2026-08-07 01:28 UTC.</p>
+Updated after each daily equity snapshot. Last generated: 2026-08-07 22:27 UTC.</p>
 
 <div class="stats">
 <div class="chip">⚠️ PAPER — simulated dollars, no real capital</div>
-<div class="stat"><div class="v">$107,688</div>
-<div class="sub pos">+7,688 $ · +7.69%</div>
+<div class="stat"><div class="v">$108,107</div>
+<div class="sub pos">+8,107 $ · +8.11%</div>
 <div class="l">Account value (started $100,000 on 2026-07-22)</div></div>
-<div class="stat"><div class="v">$102,840</div>
-<div class="sub">+2.84% (as of 2026-08-06)</div>
+<div class="stat"><div class="v">$103,445</div>
+<div class="sub">+3.45% (as of 2026-08-07)</div>
 <div class="l">SPY, same $100k (dividend-adjusted)</div></div>
-<div class="stat"><div class="v pos">+4,847 $</div>
-<div class="sub pos">+4.85 pp</div>
+<div class="stat"><div class="v pos">+4,662 $</div>
+<div class="sub pos">+4.66 pp</div>
 <div class="l">Vs SPY</div></div>
 </div>
 <div class="stats">
-<div class="stat"><div class="v">+7.69%</div><div class="l">Since start (2026-07-22)</div></div>
-<div class="stat"><div class="v">+2.84%</div><div class="l">SPY same period (as of 2026-08-06)</div></div>
+<div class="stat"><div class="v">+8.11%</div><div class="l">Since start (2026-07-22)</div></div>
+<div class="stat"><div class="v">+3.45%</div><div class="l">SPY same period (as of 2026-08-07)</div></div>
 <div class="stat"><div class="v">-2.13%</div><div class="l">Current drawdown</div></div>
-<div class="stat"><div class="v">17</div><div class="l">Holdings</div></div>
+<div class="stat"><div class="v">20</div><div class="l">Holdings</div></div>
 </div>
 <p class="muted" style="font-size:12px;">Both lines are indexed to 100 on
 2026-07-22, the day the account opened and the first orders were submitted.
@@ -81,9 +81,9 @@ not-yet-published dates carry the last available close.</p>
 <h2>Equity curve</h2>
 
 <svg viewBox="0 0 720 300" role="img" aria-label="Equity curve, indexed to 100">
-<line x1='40' y1='40' x2='680' y2='40' class='grid'/><text x='34' y='44' class='axis' text-anchor='end'>108</text><line x1='40' y1='95' x2='680' y2='95' class='grid'/><text x='34' y='99' class='axis' text-anchor='end'>105</text><line x1='40' y1='150' x2='680' y2='150' class='grid'/><text x='34' y='154' class='axis' text-anchor='end'>103</text><line x1='40' y1='205' x2='680' y2='205' class='grid'/><text x='34' y='209' class='axis' text-anchor='end'>100</text><line x1='40' y1='260' x2='680' y2='260' class='grid'/><text x='34' y='264' class='axis' text-anchor='end'>97</text>
-<polyline points='40.0,202.6 98.2,227.1 156.4,225.1 214.5,225.1 272.7,220.2 330.9,250.0 389.1,218.0 447.3,204.3 505.5,175.2 563.6,139.7 621.8,143.2 680.0,146.2' class='spy'/>
-<polyline points="40.0,202.6 98.2,229.4 156.4,229.7 214.5,197.6 272.7,68.1 330.9,60.3 389.1,99.2 447.3,105.7 505.5,64.7 563.6,55.8 621.8,73.6 680.0,50.0" class="port"/>
+<line x1='40' y1='40' x2='680' y2='40' class='grid'/><text x='34' y='44' class='axis' text-anchor='end'>109</text><line x1='40' y1='95' x2='680' y2='95' class='grid'/><text x='34' y='99' class='axis' text-anchor='end'>106</text><line x1='40' y1='150' x2='680' y2='150' class='grid'/><text x='34' y='154' class='axis' text-anchor='end'>103</text><line x1='40' y1='205' x2='680' y2='205' class='grid'/><text x='34' y='209' class='axis' text-anchor='end'>100</text><line x1='40' y1='260' x2='680' y2='260' class='grid'/><text x='34' y='264' class='axis' text-anchor='end'>97</text>
+<polyline points='40.0,204.5 98.2,228.0 156.4,226.1 214.5,226.1 272.7,221.4 330.9,250.0 389.1,219.2 447.3,206.1 505.5,178.2 563.6,144.1 621.8,147.4 680.0,138.9' class='spy'/>
+<polyline points="40.0,204.5 98.2,230.2 156.4,230.5 214.5,199.7 272.7,75.4 330.9,67.9 389.1,105.2 447.3,111.5 505.5,72.1 563.6,63.6 621.8,80.7 680.0,50.0" class="port"/>
 <text x="40" y="16" class="axis">2026-07-22 … 2026-08-07 · indexed to 100 at start</text>
 </svg>
 <div class="legend"><span class="key port-key"></span>Paper portfolio
@@ -93,12 +93,12 @@ not-yet-published dates carry the last available close.</p>
 <div style="overflow-x:auto;">
 <table><tr><th>Ticker</th><th>Sleeve</th><th>Fill price</th><th>Weight</th>
 <th>Current value</th><th>Unrealized P/L $</th><th>P/L %</th></tr>
-<tr><td>BYD</td><td>value</td><td>$85.54</td><td>4.8%</td><td>$5,170.26</td><td class='neg'>-88.03</td><td class='neg'>-1.7%</td></tr><tr><td>CMCSA</td><td>value</td><td>$23.65</td><td>5.1%</td><td>$5,495.93</td><td class='pos'>+337.82</td><td class='pos'>+6.5%</td></tr><tr><td>CME</td><td>value</td><td>$268.82</td><td>4.8%</td><td>$5,145.28</td><td class='neg'>-86.92</td><td class='neg'>-1.7%</td></tr><tr><td>CRTO</td><td>value</td><td>$21.20</td><td>3.9%</td><td>$4,147.40</td><td class='neg'>-852.59</td><td class='neg'>-17.1%</td></tr><tr><td>FISV</td><td>value</td><td>$50.18</td><td>4.9%</td><td>$5,252.61</td><td class='pos'>+383.71</td><td class='pos'>+7.9%</td></tr><tr><td>GTM</td><td>—</td><td>$2.94</td><td>6.2%</td><td>$6,674.68</td><td class='pos'>+1,941.04</td><td class='pos'>+41.0%</td></tr><tr><td>INGR</td><td>value</td><td>$102.43</td><td>4.7%</td><td>$5,017.07</td><td class='pos'>+17.08</td><td class='pos'>+0.3%</td></tr><tr><td>LEVI</td><td>value</td><td>$24.34</td><td>4.6%</td><td>$4,992.65</td><td class='neg'>-7.34</td><td class='neg'>-0.1%</td></tr><tr><td>LKQ</td><td>value</td><td>$24.76</td><td>4.6%</td><td>$4,941.43</td><td class='neg'>-58.56</td><td class='neg'>-1.2%</td></tr><tr><td>LULU</td><td>value</td><td>$111.60</td><td>5.1%</td><td>$5,495.45</td><td class='pos'>+580.95</td><td class='pos'>+11.8%</td></tr><tr><td>NUTX</td><td>growth</td><td>$160.00</td><td>4.6%</td><td>$4,920.62</td><td class='neg'>-79.37</td><td class='neg'>-1.6%</td></tr><tr><td>PPC</td><td>value</td><td>$28.60</td><td>4.5%</td><td>$4,818.17</td><td class='neg'>-181.82</td><td class='neg'>-3.6%</td></tr><tr><td>SIRI</td><td>value</td><td>$29.41</td><td>4.7%</td><td>$5,079.97</td><td class='pos'>+79.98</td><td class='pos'>+1.6%</td></tr><tr><td>SMPL</td><td>value</td><td>$10.43</td><td>5.0%</td><td>$5,354.74</td><td class='pos'>+354.75</td><td class='pos'>+7.1%</td></tr><tr><td>SONY</td><td>value</td><td>$20.80</td><td>4.9%</td><td>$5,231.15</td><td class='pos'>+522.44</td><td class='pos'>+11.1%</td></tr><tr><td>TAL</td><td>growth</td><td>$10.39</td><td>4.9%</td><td>$5,231.40</td><td class='pos'>+867.14</td><td class='pos'>+19.9%</td></tr><tr><td>UHS</td><td>value</td><td>$149.03</td><td>4.9%</td><td>$5,274.66</td><td class='pos'>+643.18</td><td class='pos'>+13.9%</td></tr><tr><td><b>Cash</b></td><td>—</td><td>—</td><td>17.8%</td><td>$19,190.35</td><td>—</td><td>—</td></tr><tr class='total'><td><b>Total</b></td><td></td><td></td><td>100.0%</td><td><b>$107,433.82</b></td><td colspan='2'></td></tr>
+<tr><td>BYD</td><td>value</td><td>$85.46</td><td>5.0%</td><td>$5,357.17</td><td class='neg'>-136.77</td><td class='neg'>-2.5%</td></tr><tr><td>CMCSA</td><td>value</td><td>$23.65</td><td>5.0%</td><td>$5,403.74</td><td class='pos'>+363.16</td><td class='pos'>+7.2%</td></tr><tr><td>CME</td><td>value</td><td>$268.68</td><td>4.9%</td><td>$5,349.72</td><td class='neg'>-100.76</td><td class='neg'>-1.8%</td></tr><tr><td>CRTO</td><td>value</td><td>$20.66</td><td>5.0%</td><td>$5,414.64</td><td class='neg'>-663.01</td><td class='neg'>-10.9%</td></tr><tr><td>FISV</td><td>value</td><td>$50.29</td><td>5.0%</td><td>$5,442.98</td><td class='pos'>+217.53</td><td class='pos'>+4.2%</td></tr><tr><td>GTM</td><td>—</td><td>$2.94</td><td>5.0%</td><td>$5,407.07</td><td class='pos'>+1,596.05</td><td class='pos'>+41.9%</td></tr><tr><td>HNNA</td><td>value</td><td>$9.98</td><td>5.1%</td><td>$5,544.03</td><td class='pos'>+124.89</td><td class='pos'>+2.3%</td></tr><tr><td>INGR</td><td>value</td><td>$102.50</td><td>5.0%</td><td>$5,425.34</td><td class='pos'>+92.89</td><td class='pos'>+1.7%</td></tr><tr><td>LEVI</td><td>value</td><td>$24.34</td><td>5.0%</td><td>$5,408.54</td><td class='pos'>+17.16</td><td class='pos'>+0.3%</td></tr><tr><td>LKQ</td><td>value</td><td>$24.73</td><td>5.1%</td><td>$5,508.19</td><td class='pos'>+32.91</td><td class='pos'>+0.6%</td></tr><tr><td>LULU</td><td>value</td><td>$111.61</td><td>5.0%</td><td>$5,450.93</td><td class='pos'>+720.50</td><td class='pos'>+15.2%</td></tr><tr><td>NUS</td><td>value</td><td>$5.38</td><td>5.1%</td><td>$5,511.43</td><td class='pos'>+120.25</td><td class='pos'>+2.2%</td></tr><tr><td>NUTX</td><td>growth</td><td>$160.16</td><td>4.8%</td><td>$5,184.69</td><td class='pos'>+102.73</td><td class='pos'>+2.0%</td></tr><tr><td>PPC</td><td>value</td><td>$28.47</td><td>5.0%</td><td>$5,403.99</td><td class='neg'>-200.18</td><td class='neg'>-3.6%</td></tr><tr><td>SIRI</td><td>value</td><td>$29.64</td><td>5.0%</td><td>$5,396.60</td><td class='pos'>+44.42</td><td class='pos'>+0.8%</td></tr><tr><td>SMPL</td><td>value</td><td>$10.44</td><td>5.0%</td><td>$5,458.07</td><td class='pos'>+322.43</td><td class='pos'>+6.3%</td></tr><tr><td>SON</td><td>value</td><td>$57.38</td><td>5.0%</td><td>$5,453.19</td><td class='pos'>+62.01</td><td class='pos'>+1.2%</td></tr><tr><td>SONY</td><td>value</td><td>$20.84</td><td>5.0%</td><td>$5,409.13</td><td class='pos'>+603.36</td><td class='pos'>+12.6%</td></tr><tr><td>TAL</td><td>growth</td><td>$10.46</td><td>5.0%</td><td>$5,416.90</td><td class='pos'>+840.68</td><td class='pos'>+18.4%</td></tr><tr><td>UHS</td><td>value</td><td>$149.29</td><td>5.1%</td><td>$5,462.37</td><td class='pos'>+765.61</td><td class='pos'>+16.3%</td></tr><tr><td><b>Cash</b></td><td>—</td><td>—</td><td>0.0%</td><td>$22.72</td><td>—</td><td>—</td></tr><tr class='total'><td><b>Total</b></td><td></td><td></td><td>100.0%</td><td><b>$108,431.45</b></td><td colspan='2'></td></tr>
 </table></div>
 <p class="muted">Target construction: 20 names, equal weight (5% each),
 rebalanced monthly; weights drift with prices between rebalances.
 Unrealized P/L is measured against the actual paper fill prices of
-2026-07-23 (or the latest rebalance), marks as of 2026-08-06. Dividends are not
+2026-07-23 (or the latest rebalance), marks as of 2026-08-07. Dividends are not
 reinvested — they accrue as cash. The SPY comparison puts the same
 $100,000 into SPY at the 2026-07-22 close, dividend-adjusted. The portfolio
 sat in cash until the 2026-07-23 open fills (day-one convention). All
@@ -107,7 +107,7 @@ reproducible from the public ledger files alone.</p>
 
 <h2>Monthly returns</h2>
 <table><tr><th>Month</th><th>Net return</th></tr>
-<tr><td>2026-08</td><td>+2.67%</td></tr></table>
+<tr><td>2026-08</td><td>+3.08%</td></tr></table>
 
 <h2>How this works</h2>
 <p>A fully automated screen of ~6,000 US companies runs every weekday,
