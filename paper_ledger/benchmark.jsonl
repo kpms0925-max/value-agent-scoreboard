@@ -38,3 +38,5 @@
 {"closeadj": 760.755, "date": "2026-09-14", "source": "alpaca_daily_adjusted", "symbol": "SPY", "ts": "2026-09-15T00:07:19+00:00"}
 {"closeadj": 757.42, "date": "2026-09-15", "source": "alpaca_daily_adjusted", "symbol": "SPY", "ts": "2026-09-15T23:52:45+00:00"}
 {"closeadj": 754.05, "date": "2026-09-16", "source": "alpaca_daily_adjusted", "symbol": "SPY", "ts": "2026-09-16T23:59:46+00:00"}
+{"closeadj": 762.64, "date": "2026-09-17", "source": "alpaca_daily_adjusted", "symbol": "SPY", "ts": "2026-09-17T23:50:10+00:00"}
+{"closeadj": 761.62, "date": "2026-09-18", "source": "alpaca_daily_adjusted", "symbol": "SPY", "ts": "2026-09-18T23:47:20+00:00"}
