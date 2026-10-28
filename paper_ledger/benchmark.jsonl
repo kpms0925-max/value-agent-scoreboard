@@ -66,3 +66,4 @@
 {"closeadj": 764.03, "date": "2026-10-22", "source": "alpaca_daily_adjusted", "symbol": "SPY", "ts": "2026-10-23T00:18:44+00:00"}
 {"closeadj": 759.83, "date": "2026-10-23", "source": "alpaca_daily_adjusted", "symbol": "SPY", "ts": "2026-10-24T00:10:12+00:00"}
 {"closeadj": 765.225, "date": "2026-10-26", "source": "alpaca_daily_adjusted", "symbol": "SPY", "ts": "2026-10-27T01:01:54+00:00"}
+{"closeadj": 769.7, "date": "2026-10-27", "source": "alpaca_daily_adjusted", "symbol": "SPY", "ts": "2026-10-28T00:51:16+00:00"}
