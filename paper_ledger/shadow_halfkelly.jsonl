@@ -90,3 +90,4 @@
 {"cost_frac": 0.0, "date": "2026-10-31", "entry_prices": {}, "index": 95.636877, "invested_frac": 0, "label": "SIMULATED broad-pool half-Kelly (no real capital, no orders)", "ts": "2026-10-31T20:35:13+00:00", "type": "construct", "weights": {}}
 {"date": "2026-11-03", "index": 95.636877, "label": "SIMULATED", "ts": "2026-11-03T03:14:13+00:00", "type": "value"}
 {"date": "2026-11-04", "index": 95.636877, "label": "SIMULATED", "ts": "2026-11-04T01:47:25+00:00", "type": "value"}
+{"date": "2026-11-05", "index": 95.636877, "label": "SIMULATED", "ts": "2026-11-05T01:55:39+00:00", "type": "value"}
